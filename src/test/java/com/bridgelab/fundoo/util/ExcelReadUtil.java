@@ -8,7 +8,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class ExcelReadUtil {
+public class ExcelReadUtil { 
   public static String[][] readExcelInto2DArray(String excelFilePath, 
 		  String sheetName, int totalCols) {
 
