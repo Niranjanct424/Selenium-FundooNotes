@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="349723" started-at="2020-05-12T17:44:54 IST" finished-at="2020-05-12T17:50:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="349723" started-at="2020-05-12T17:44:54 IST" finished-at="2020-05-12T17:50:44 IST">
+      <class name="com.bridgelab.fundoo.testcases.UserModuleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="beforeTest" is-config="true" duration-ms="55" started-at="2020-05-12T17:44:54 IST" finished-at="2020-05-12T17:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="forgotPassword(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="forgotPassword" duration-ms="69689" started-at="2020-05-12T17:44:56 IST" data-provider="user-forgotMail-data-provider" finished-at="2020-05-12T17:46:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niranjangyadav124@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="forgotPassword(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="forgotPassword" duration-ms="46085" started-at="2020-05-12T17:46:05 IST" data-provider="user-forgotMail-data-provider" finished-at="2020-05-12T17:46:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niruct6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="readFromExcel()[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="readFromExcel" duration-ms="1162" started-at="2020-05-12T17:46:52 IST" finished-at="2020-05-12T17:46:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFromExcel -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="register" duration-ms="30540" started-at="2020-05-12T17:46:53 IST" data-provider="user-register-info-excel-data-provider" finished-at="2020-05-12T17:47:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Niranjan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niranjangyadav124@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8880846463]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="register" duration-ms="34883" started-at="2020-05-12T17:47:23 IST" data-provider="user-register-info-excel-data-provider" finished-at="2020-05-12T17:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niruct6@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8880846463]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="testLogin" duration-ms="38388" started-at="2020-05-12T17:47:58 IST" data-provider="user-ids-passwords-excel-data-provider" finished-at="2020-05-12T17:48:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niranjangyadav124@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="testLogin" duration-ms="32648" started-at="2020-05-12T17:48:37 IST" data-provider="user-ids-passwords-excel-data-provider" finished-at="2020-05-12T17:49:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niruct6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="testLogin" duration-ms="27507" started-at="2020-05-12T17:49:09 IST" data-provider="user-ids-passwords-excel-data-provider" finished-at="2020-05-12T17:49:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="updatePassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="updatePassword" duration-ms="34645" started-at="2020-05-12T17:49:37 IST" data-provider="user-updatePassword-data-provider" finished-at="2020-05-12T17:50:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePassword -->
+        <test-method status="PASS" signature="updatePassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.UserModuleTest@3234e239]" name="updatePassword" duration-ms="31747" started-at="2020-05-12T17:50:12 IST" data-provider="user-updatePassword-data-provider" finished-at="2020-05-12T17:50:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niranjan@55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePassword -->
+      </class> <!-- com.bridgelab.fundoo.testcases.UserModuleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
