@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42155" started-at="2020-05-17T23:47:23 IST" finished-at="2020-05-17T23:48:06 IST">
+  <suite name="Default suite" duration-ms="75834" started-at="2020-05-21T17:26:01 IST" finished-at="2020-05-21T17:27:17 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42155" started-at="2020-05-17T23:47:23 IST" finished-at="2020-05-17T23:48:06 IST">
-      <class name="com.bridgelab.fundoo.testcases.NoteModuleTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bridgelab.fundoo.testcases.NoteModuleTest@58c1670b]" name="beforeTest" is-config="true" duration-ms="309" started-at="2020-05-17T23:47:23 IST" finished-at="2020-05-17T23:47:24 IST">
+    <test name="Default test" duration-ms="75834" started-at="2020-05-21T17:26:01 IST" finished-at="2020-05-21T17:27:17 IST">
+      <class name="com.bridgelab.fundoo.testcases.LabelTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bridgelab.fundoo.testcases.LabelTest@6b9651f3]" name="beforeTest" is-config="true" duration-ms="514" started-at="2020-05-21T17:26:01 IST" finished-at="2020-05-21T17:26:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bridgelab.fundoo.testcases.NoteModuleTest@58c1670b]" name="setup" is-config="true" duration-ms="8778" started-at="2020-05-17T23:47:25 IST" finished-at="2020-05-17T23:47:34 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bridgelab.fundoo.testcases.LabelTest@6b9651f3]" name="setup" is-config="true" duration-ms="26031" started-at="2020-05-21T17:26:04 IST" finished-at="2020-05-21T17:26:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getAllTrashedNotesTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.NoteModuleTest@58c1670b]" name="getAllTrashedNotesTest" duration-ms="29515" started-at="2020-05-17T23:47:34 IST" data-provider="user-ids-passwords-excel-data-provider" finished-at="2020-05-17T23:48:04 IST">
+        <test-method status="PASS" signature="removeLabelToNoteTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.LabelTest@6b9651f3]" name="removeLabelToNoteTest" duration-ms="41704" started-at="2020-05-21T17:26:30 IST" data-provider="user-ids-passwords-excel-data-provider" finished-at="2020-05-21T17:27:12 IST">
           <params>
             <param index="0">
               <value>
@@ -30,23 +30,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllTrashedNotesTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bridgelab.fundoo.testcases.NoteModuleTest@58c1670b]" name="tearDown" is-config="true" duration-ms="664" started-at="2020-05-17T23:48:04 IST" finished-at="2020-05-17T23:48:04 IST">
+        </test-method> <!-- removeLabelToNoteTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bridgelab.fundoo.testcases.LabelTest@6b9651f3]" name="tearDown" is-config="true" duration-ms="1469" started-at="2020-05-21T17:27:12 IST" finished-at="2020-05-21T17:27:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getAllTrashedNotesTest status=SUCCESS method=NoteModuleTest.getAllTrashedNotesTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.NoteModuleTest@58c1670b] output={null}]]]>
+                <![CDATA[[TestResult name=removeLabelToNoteTest status=SUCCESS method=LabelTest.removeLabelToNoteTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelab.fundoo.testcases.LabelTest@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.bridgelab.fundoo.testcases.NoteModuleTest@58c1670b]" name="endReport" is-config="true" duration-ms="1177" started-at="2020-05-17T23:48:04 IST" finished-at="2020-05-17T23:48:06 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.bridgelab.fundoo.testcases.LabelTest@6b9651f3]" name="endReport" is-config="true" duration-ms="3715" started-at="2020-05-21T17:27:13 IST" finished-at="2020-05-21T17:27:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.bridgelab.fundoo.testcases.NoteModuleTest -->
+      </class> <!-- com.bridgelab.fundoo.testcases.LabelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

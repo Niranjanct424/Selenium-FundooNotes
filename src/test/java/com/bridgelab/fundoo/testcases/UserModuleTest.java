@@ -31,6 +31,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.bridgelab.fundoo.util.ExcelReadUtil;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class UserModuleTest {
 
 	public WebDriver driver;
@@ -41,7 +43,8 @@ public class UserModuleTest {
 
 	 @BeforeMethod
 	 public void setup() {
-		 System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver_win32\\chromedriver.exe");
+//		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\dell\\Desktop\\chromedriver_win32\\chromedriver.exe");
+		 WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 	 }
@@ -176,11 +179,11 @@ public class UserModuleTest {
 		System.out.println("Password Updated Successfully.....");
 
 		
-		Thread.sleep(25000);
+		Thread.sleep(30000);
 		String expected = driver.getCurrentUrl();
 		String actual = "http://localhost:4200/login";
 		assertEquals(actual, expected);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		driver.close();
 
